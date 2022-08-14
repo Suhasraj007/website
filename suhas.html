@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is the description" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Please insert your details</h1>
+    <form action="otani.py">
+      <label for="Firstname"> First name :</label>
+      <input type="text" id="Firstname" />
+      <br />
+      <br />
+      <label for="Last Name">Last name : </label>
+      <div><input type="text" id="Last Name" /></div>
+      <br />
+      <label for="Emailid"></label>
+      <div>Email : <input type="email" name="myemail" id="Emailid" /></div>
+      <br />
+      <label for="DOB"></label>
+      <div>Date of birth: <input type="date" name="mydate" id="DOB" /></div>
+      <br />
+      <label for="Number"></label>
+      <div>
+        Phone number : <input type="number" name="mynumber" id="Number" />
+      </div>
+      <br />
+      <label for="GAyi"> Are you gay? : </label>
+      <input type="checkbox" name="gay" checked id="GAyi" />
+      <br />
+      <label for="are"> You are ?</label>
+      <select name="personality" id="are">
+        <option value="G">Gay</option>
+        <option value="L" selected>Lesbian</option>
+        <option value="T">Transgender</option>
+      </select>
+      <div>
+        Gender : Female <input type="radio" name="gender" /> Transgender<input
+          type="radio"
+          name="gender"
+        />
+        Gay <input type="radio" name="gender" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit now" />
+        <input type="reset" value="reset" />
+      </div>
+    </form>
+  </body>
+</html>
